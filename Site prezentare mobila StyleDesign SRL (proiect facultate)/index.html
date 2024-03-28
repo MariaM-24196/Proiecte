@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>StyleDesign/Acasa</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <link rel = "stylesheet" href = "font/fonts.css">
+        
+        <link rel = "stylesheet" href = "css/normalize.css">
+        
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+    </head>
+    <body>
+        
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    Style<span>Design</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Acasa</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "galerie.html" class = "nav-link">Galerie</a>
+                        </li>                        
+                        <li class = "nav-item">
+                            <a href = "despre.html" class = "nav-link">Despre</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+
+        
+        <header class = "flex">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Noutati pentru 2024</h1>
+                    <p>Fiecare detaliu contribuie la povestea ta</p>
+                </div>
+                <div class = "header-form">
+                    <h2>Alatura-te si tu</h2>
+                    <form class = "flex">
+                        <input type = "text" class = "form-control" placeholder="Email">
+                       
+                        <input type="password" class = "form-control" placeholder="Parola">
+                        <input type="button" class = "btn" value = "Login" onclick="showPopup()">
+                    </form>
+                    <div class="popup" id="popup">
+                        <span class="message">Parola sau Email incorect</span>
+                        <button class="close-btn" onclick="closePopup()">&#10006;</button>
+                      </div>
+                </div>
+            </div>
+        </header>
+        
+
+        
+        <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">know what you want</span>
+                    <h2 class = "lg-title">Design</h2>
+                </div>
+
+                <div class = "featured-row">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "https://img.furniture1.eu/v7/_im_/detailed/3166/3166699.jpg?w=900&h=675&p=fw" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <div>
+                                <p class = "text"> 3m2</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "https://img.furniture1.eu/v7/_im_/collections/3008/furniture_1684997355982_0.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <div>
+                                <p class = "text">2m2</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "https://mobilalaguna.ro/mobilier/wp-content/uploads/2021/10/Set-Mobila-Bucatarie-Colt-Mina-300240-AlbFerrara-C28-1.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <div>
+                                <p class = "text">2.7m2</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "https://minimaldeco.ro/wp-content/uploads/VXL8720286164174_m_en_hd_1.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <div>
+                                <p class = "text">6m2</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "https://m.media-amazon.com/images/I/61nGhgYXghL.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <div>
+                                <p class = "text">2.5m2</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "https://www.mobilasik.ro/images/stories/virtuemart/product/b36.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <div>
+                                <p class = "text">2.1m2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        
+        <section id = "services" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">despre serviciile pe care le oferim</span>
+                    <h2 class = "lg-title">Serviciile noastre</h2>
+                </div>
+
+                <div class = "services-row">
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-hotel"></i>
+                        </span>
+                        <h3>Mobilă de calitate</h3>
+                        <p class = "text">Mobilă de lemn de înaltă calitate, potrivite nevoilor dumneavoastră</p>
+                        <a href = "#" class = "btn">Citeşte mai mult</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-map-marked-alt"></i>
+                        </span>
+                        <h3>Oriunde in Europa</h3>
+                        <p class = "text">Nu contează unde locuiești. Suntem aici pentru a vă îndeplini visele</p>
+                        <a href = "#" class = "btn">Citeşte mai mult
+                        </a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-money-bill"></i>
+                        </span>
+                        <h3>Pret potrivit</h3>
+                        <p class = "text">Prețuri accesibile pentru oricine este interesat să ne salveze planeta</p>
+                        <a href = "#" class = "btn">Citeşte mai mult
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+
+        
+        <section id = "testimonials" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">ce spun clienții noștri despre noi</span>
+                </div>
+
+                <div class = "test-row">
+                    <div class = "test-item">
+                        <p class = "text">Este o mobilă super din toate punctele de vedere, este foarte frumoasă, se încadrează foarte bine într-un spațiu mai mic, este rezistentă și este și încăpătoare.
+                            Părerea mea este că își merită banii.</p>
+                        <div class = "test-item-info">
+                            <img src = "data:image/jpeg;base64,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" alt = "testimonial">
+                            <div>
+                                <h3>Mihai Neagu</h3>
+                                <p class = "text">Sibiu, România</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">Mobilă bună, elegantă, fără defecte. 100% recomandabil
+                        </p>
+                        <div class = "test-item-info">
+                            <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlNIG8_t7XMJPW5rh5B5M5QT8ua21sNeZ1-Q&usqp=CAU" alt = "testimonial">
+
+                            <div>
+                                <h3>Andrei Rusu</h3>
+                                <p class = "text">București, România</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">Este un dormitor perfect pentru o încăpere de dimensiuni cel putin medii, foarte mulțumită din punct de vedere calitativ, designul este unul modern și drăguț</p>
+                        <div class = "test-item-info">
+                            <img src = "https://www.thepoc.ro/img/2017/08/femeie-superba.jpeg" alt = "testimonial">
+                            <div>
+                                <h3>Sara Popa</h3>
+                                <p class = "text">Cluj-Napoca, România</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+      
+
+        
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Style<span>Design</span>
+                    </a>
+                    <p class = "text">Ne concentrăm în mod deosebit pe calitatea produselor noastre, angajându-ne să lucrăm cu atenție pentru a oferi piese de mobilier durabile</p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Orase partenere</h2>
+                    <ul>
+                        <li><a href = "#">Brasov, Romania</a></li>
+                        <li><a href = "#">Bucuresti, Romania</a></li>
+                        <li><a href = "#">Sibiu, Romania</a></li>
+                        <li><a href = "#">Cluj-Napoca, Romania</a></li>
+                        
+                    </ul>
+                </div>
+                <div class = "subscribe-form footer-item">
+                    <h2>Subscribe for Newsletter!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type="button" class="btn" value="Subscribe" >
+                        
+
+                    </form>
+                </div>
+            </div>
+        </footer>
+        
+
+
+        </script>
+    </body>
+</html>

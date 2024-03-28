@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>StyleDesign/Acasa</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <link rel = "stylesheet" href = "font/fonts.css">
+        
+        <link rel = "stylesheet" href = "css/normalize.css">
+        
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+    </head>
+    <body>
+        
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    Style<span>Design</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Acasa</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "galerie.html" class = "nav-link">Galerie</a>
+                        </li>                        
+                        <li class = "nav-item">
+                            <a href = "despre.html" class = "nav-link">Despre</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+
+        
+        <header class = "flex">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Noutati pentru 2023</h1>
+                    <p>Fiecare detaliu contribuie la povestea ta</p>
+                </div>
+                <div class = "header-form">
+                    <h2>Alatura-te si tu</h2>
+                    <form class = "flex">
+                        <input type = "text" class = "form-control" placeholder="Email">
+                       
+                        <input type="password" class = "form-control" placeholder="Parola">
+                        <input type="button" class = "btn" value = "Login" onclick="showPopup()">
+                    </form>
+                    <div class="popup" id="popup">
+                        <span class="message">Parola sau Email incorect</span>
+                        <button class="close-btn" onclick="closePopup()">&#10006;</button>
+                      </div>
+                </div>
+            </div>
+        </header>
+        
+
+        
+        <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">know what you want</span>
+                    <h2 class = "lg-title">Design</h2>
+                </div>
+
+                <div class = "featured-row">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "C:\\Users\\Utilizator\\Desktop\\SDA\\images\\7.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <div>
+                                <p class = "text"> 3m2</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "C:\\Users\\Utilizator\\Desktop\\SDA\\images\\5.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <div>
+                                <p class = "text">2m2</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "C:\\Users\\Utilizator\\Desktop\\SDA\\images\\img1.jpeg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <div>
+                                <p class = "text">2.7m2</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "C:\\Users\\Utilizator\\Desktop\\SDA\\images\\3.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <div>
+                                <p class = "text">6m2</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "C:\\Users\\Utilizator\\Downloads\\WhatsApp Image 2023-11-24 at 13.08.59 (1).jpeg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <div>
+                                <p class = "text">2.5m2</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "C:\\Users\\Utilizator\\Downloads\\WhatsApp Image 2023-11-24 at 14.32.54 (1).jpeg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <div>
+                                <p class = "text">2.1m2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        
+        <section id = "services" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">despre serviciile pe care le oferim</span>
+                    <h2 class = "lg-title">Serviciile noastre</h2>
+                </div>
+
+                <div class = "services-row">
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-hotel"></i>
+                        </span>
+                        <h3>Mobilă de calitate</h3>
+                        <p class = "text">Mobilă de lemn de înaltă calitate, potrivite nevoilor dumneavoastră</p>
+                        <a href = "#" class = "btn">Citeşte mai mult</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-map-marked-alt"></i>
+                        </span>
+                        <h3>Oriunde in Europa</h3>
+                        <p class = "text">Nu contează unde locuiești. Suntem aici pentru a vă îndeplini visele</p>
+                        <a href = "#" class = "btn">Citeşte mai mult
+                        </a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-money-bill"></i>
+                        </span>
+                        <h3>Pret potrivit</h3>
+                        <p class = "text">Prețuri accesibile pentru oricine este interesat să ne salveze planeta</p>
+                        <a href = "#" class = "btn">Citeşte mai mult
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+
+        
+        <section id = "testimonials" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">ce spun clienții noștri despre noi</span>
+                </div>
+
+                <div class = "test-row">
+                    <div class = "test-item">
+                        <p class = "text">Este o mobilă super din toate punctele de vedere, este foarte frumoasă, se încadrează foarte bine într-un spațiu mai mic, este rezistentă și este și încăpătoare.
+                            Părerea mea este că își merită banii.</p>
+                        <div class = "test-item-info">
+                            <img src = "C:\Users\Utilizator\Desktop\WD\images\test-1.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Mihai Neagu</h3>
+                                <p class = "text">Sibiu, România</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">Mobilă bună, elegantă, fără defecte. 100% recomandabil
+                        </p>
+                        <div class = "test-item-info">
+                            <img src = "C:\\Users\\Utilizator\\Desktop\\WD\\images\\test-2.jpg" alt = "testimonial">
+
+                            <div>
+                                <h3>Andrei Rusu</h3>
+                                <p class = "text">București, România</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">Este un dormitor perfect pentru o încăpere de dimensiuni cel putin medii, foarte mulțumită din punct de vedere calitativ, designul este unul modern și drăguț</p>
+                        <div class = "test-item-info">
+                            <img src = "C:\\Users\\Utilizator\\Desktop\\WD\\images\\test-3.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Sara Popa</h3>
+                                <p class = "text">Cluj-Napoca, România</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+      
+
+        
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Style<span>Design</span>
+                    </a>
+                    <p class = "text">Ne concentrăm în mod deosebit pe calitatea produselor noastre, angajându-ne să lucrăm cu atenție pentru a oferi piese de mobilier durabile</p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Orase partenere</h2>
+                    <ul>
+                        <li><a href = "#">Brasov, Romania</a></li>
+                        <li><a href = "#">Bucuresti, Romania</a></li>
+                        <li><a href = "#">Sibiu, Romania</a></li>
+                        <li><a href = "#">Cluj-Napoca, Romania</a></li>
+                        
+                    </ul>
+                </div>
+                <div class = "subscribe-form footer-item">
+                    <h2>Subscribe for Newsletter!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type="button" class="btn" value="Subscribe" >
+                        
+
+                    </form>
+                </div>
+            </div>
+        </footer>
+        
+
+
+        </script>
+    </body>
+</html>
