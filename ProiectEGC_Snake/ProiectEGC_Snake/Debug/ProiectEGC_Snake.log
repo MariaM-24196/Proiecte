@@ -1,0 +1,11 @@
+﻿  main.cpp
+C:\Users\MARIA\OneDrive\Facultate\Anul 2\Semestrul 2\EGC\ProiectEGC_Snake\main.cpp(27,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\MARIA\OneDrive\Facultate\Anul 2\Semestrul 2\EGC\ProiectEGC_Snake\main.cpp(35,19): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\MARIA\OneDrive\Facultate\Anul 2\Semestrul 2\EGC\ProiectEGC_Snake\main.cpp(35,16): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\MARIA\OneDrive\Facultate\Anul 2\Semestrul 2\EGC\ProiectEGC_Snake\main.cpp(36,30): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\MARIA\OneDrive\Facultate\Anul 2\Semestrul 2\EGC\ProiectEGC_Snake\main.cpp(36,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\MARIA\OneDrive\Facultate\Anul 2\Semestrul 2\EGC\ProiectEGC_Snake\main.cpp(37,32): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\MARIA\OneDrive\Facultate\Anul 2\Semestrul 2\EGC\ProiectEGC_Snake\main.cpp(37,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\MARIA\OneDrive\Facultate\Anul 2\Semestrul 2\EGC\ProiectEGC_Snake\main.cpp(38,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\MARIA\OneDrive\Facultate\Anul 2\Semestrul 2\EGC\ProiectEGC_Snake\main.cpp(38,16): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  ProiectEGC_Snake.vcxproj -> C:\Users\MARIA\OneDrive\Facultate\Anul 2\Semestrul 2\EGC\ProiectEGC_Snake\Debug\ProiectEGC_Snake.exe
